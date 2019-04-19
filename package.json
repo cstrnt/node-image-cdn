@@ -1,0 +1,27 @@
+{
+  "name": "node-image-cdn",
+  "version": "1.0.0",
+  "description": "A small image CDN built on Node & Express.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "bin": {
+    "node-cdn": "./bin/node-cdn.js"
+  },
+  "preferGlobal": true,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "command-line-args": "^5.1.1",
+    "express": "^4.16.4",
+    "multer": "^1.4.1",
+    "sharp": "^0.22.0"
+  }
+}
