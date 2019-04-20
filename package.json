@@ -1,6 +1,6 @@
 {
   "name": "node-image-cdn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A small image CDN built on Node & Express.js",
   "main": "index.js",
   "scripts": {
