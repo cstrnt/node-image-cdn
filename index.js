@@ -1,3 +1,3 @@
 const { makeServer } = require('./lib/Server');
 
-makeServer('uploads');
+makeServer({ dir: 'uploads' });
